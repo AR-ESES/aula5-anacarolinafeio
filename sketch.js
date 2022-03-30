@@ -8,10 +8,24 @@ function setup() {
 
 function draw() {
 
+background(0)
+
+if(mouseY >= height/2) {
+	noFill();
+}
+
+else{
+	
+	fill(39,118,50);
+}
+
+if(mouseX <= width/2) {
+	fill(19,52,146);
+}
+
 	stroke(230);
 	strokeWeight(2);
-	noFill();
-	circle(width / 2, height / 2, height / 4);
+	circle(width /2, height / 2, height / 2);
 
 
 }
