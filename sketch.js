@@ -21,6 +21,11 @@ else{
 
 if(mouseX <= width/2) {
 	fill(19,52,146);
+
+}
+
+if(mouseY<height/2 && mouseX<=width/2) {
+    fill(255,0,0);
 }
 
 	stroke(230);
